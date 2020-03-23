@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "AfterU",
+    "slug": "AfterU",
+    "privacy": "public",
+    "sdkVersion": "33.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.5",
+    "orientation": "portrait",
+    "icon": "./assets/images/logo-icon.png",
+    "splash": {
+      "image": "./assets/images/splash-screen.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.satisfactionscript.afteru"
+    },
+    "android": {
+      "package": "com.satisfactionscript.afteru"
+    }
+  }
+}
